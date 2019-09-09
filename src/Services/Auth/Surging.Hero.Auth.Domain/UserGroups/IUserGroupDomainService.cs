@@ -7,5 +7,7 @@ namespace Surging.Hero.Auth.Domain.UserGroups
     public interface IUserGroupDomainService : ITransientDependency
     {
         Task Create(CreateUserGroupInput input);
+        Task Update(UpdateUserGroupInput input);
+        Task Delete(long id);
     }
 }

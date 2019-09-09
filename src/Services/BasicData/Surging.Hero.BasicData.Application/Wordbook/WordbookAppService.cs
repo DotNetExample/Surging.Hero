@@ -1,14 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Surging.Core.AutoMapper;
-using Surging.Core.Domain.PagedAndSorted;
-using Surging.Core.Domain.PagedAndSorted.Extensions;
+using Surging.Core.Domain;
 using Surging.Core.ProxyGenerator;
 using Surging.Core.Validation.DataAnnotationValidation;
 using Surging.Hero.BasicData.Domain.Wordbooks;
 using Surging.Hero.BasicData.IApplication.Wordbook;
 using Surging.Hero.BasicData.IApplication.Wordbook.Dtos;
-using Surging.Hero.Common.Dtos;
 
 namespace Surging.Hero.BasicData.Application.Wordbook
 {
